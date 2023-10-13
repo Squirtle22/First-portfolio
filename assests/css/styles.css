@@ -1,0 +1,20 @@
+.navbar-top-right {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Vertically center items */
+    height: 100%; /* Make the container the full height of the navbar */
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
