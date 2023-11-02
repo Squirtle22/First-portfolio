@@ -1,4 +1,4 @@
-:root {
+  :root {
   --bs-navbar-color: #fff;
 }
 
@@ -32,7 +32,7 @@ body {
 h1 {
   position: absolute;
   top: 150px;
-  left: 850px;
+  left: 830px;
   width: 250px;
   text-decoration: underline;
   color: #fff;
@@ -40,7 +40,7 @@ h1 {
 
 #about {
   position: relative;
-  top: 250px;
+  top: 200px;
   left: 600px;
   width: 500px;
   color: #fff;
@@ -53,13 +53,13 @@ h1 {
   margin: 0 auto; /* Center the line */
   position: relative;
   left: 200px;
-  top: 300px; /* Adjust the top value to position it under the paragraph */
+  top: 200px; /* Adjust the top value to position it under the paragraph */
 }
 
 .title {
   position: relative;
-  top: 300px;
-  left: 750px;
+  top: 200px;
+  left: 800px;
   width: 100px;
   color: #fff;
 }
@@ -69,7 +69,7 @@ h1 {
 .skills {
   /* use this to move the list to under skills */
   position: relative;
-  top: 300px;
+  top: 220px;
   left: 500px;
   width: 150px;
   color: #fff;
@@ -100,5 +100,111 @@ h1 {
   box-shadow: 0 0 0 4px #f5dcdc;
 }
 
+:root {
+  --bg-color: #081b29;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+}
+
+body {
+  background-color: black !important;
+  color: #fff;
+}
+
+.about-img {
+position: relative;
+width: 25rem;
+height: 25rem;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  width: 30px;
+  /* Adjust bar width */
+  height: 3px;
+  /* Adjust bar height */
+  border-radius: 3px;
+  /* Add border-radius for rounded corners */
+  margin: 4px 0;
+  /* Adjust margin between bars */
+}
+
+h1 {
+  position: absolute;
+  top: 150px;
+  left: 830px;
+  width: 250px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#about {
+  position: relative;
+  top: 200px;
+  left: 600px;
+  width: 500px;
+  color: #fff;
+}
+
+.line {
+  border-top: 1px solid #fff; /* Adjust the thickness (1px) and color (#000) as needed */
+  height: 2px; /* Adjust the height (2px) as needed */
+  width: 50%; /* Adjust the width (50%) as needed */
+  margin: 0 auto; /* Center the line */
+  position: relative;
+  left: 200px;
+  top: 200px; /* Adjust the top value to position it under the paragraph */
+}
+
+.title {
+  position: relative;
+  top: 200px;
+  left: 800px;
+  width: 100px;
+  color: #fff;
+}
+
+
+
+.skills {
+  /* use this to move the list to under skills */
+  position: relative;
+  top: 220px;
+  left: 500px;
+  width: 150px;
+  color: #fff;
+}
+
+.skills-img {
+  width: 80px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #33FCFF;
+  padding: 20px;
+  box-shadow: 0 0 0 3px #f5dcdc;
+}
+
+
+
+.box-shadow,
+.paralax-mf,
+.service-box,
+.work-box,
+.card-blog {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow-a,
+.button:hover {
+  box-shadow: 0 0 0 4px #f5dcdc;
+}
