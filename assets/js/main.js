@@ -21,3 +21,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
     animateText();
 });
+
+// Get the link container element by its ID
+const linkContainer = document.getElementById("links");
+
+// Create a function to generate and display the links
+function createLinks() {
+    links.forEach(linkData => {
+        const linkElement = document.createElement("a");
+        linkElement.href = linkData.link;
+        linkElement.className = "link";
+        linkElement.target = "_blank";
+
+        const imageElement = document.createElement("img");
+        imageElement.src = linkData.image;
+
+
+
+        // Append the image, name, and icon to the link element
+        linkElement.appendChild(imageElement);
+
+        // Append the link element to the link container
+        linkContainer.appendChild(linkElement);
+    });
+}
+
+// Call the function to generate and display the links
+createLinks();
