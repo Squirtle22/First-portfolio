@@ -752,7 +752,31 @@ footer .credits a {
   aspect-ratio: 1;
 }
 
+.link:hover {
+  transform: scale(2.5) rotate(360deg);
+}
 
 
+#work {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #fff; 
+}
 
+#work:hover {
+  color: #FF33F3; 
+  transform: scale(1.1);
+}
 
+#contactMe {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #fff; 
+}
+
+#contactMe:hover {
+  color: #FF33F3; 
+  transform: scale(1.1);
+}
